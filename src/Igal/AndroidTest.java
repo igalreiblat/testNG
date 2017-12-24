@@ -7,8 +7,6 @@ import org.testng.annotations.*;
 *
 */
 public class AndroidTest {
-  private String host = "localhost";
-  private int port = 8889;
   private String accessKey = "eyJ4cC51Ijo4NSwieHAucCI6MiwieHAubSI6Ik1BIiwiYWxnIjoiSFMyNTYifQ.eyJleHAiOjE4Mjg5NDU4MjksImlzcyI6ImNvbS5leHBlcml0ZXN0In0.NJ0DFLOdtLvkhz6NPPNtRu2GZFLwhCprzeohEyd3FZY";
   private String projectBaseDirectory = "C:\\Users\\igal.reiblat\\workspace\\project5";
   protected Client client = null;
